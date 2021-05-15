@@ -1,0 +1,38 @@
+.homePage {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+
+  &_img {
+    margin-right: 40px;
+  }
+
+  &_title {
+    margin-bottom: 10px;
+  }
+
+  &_position {
+    margin-bottom: 20px;
+  }
+
+  &_description {
+    margin-bottom: 70px;
+  }
+}
+
+.skills {
+  &_title {
+    margin-bottom: 15px;
+  }
+
+  &_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &_item {
+    // width: calc(100% - 60) / 4;
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
+}

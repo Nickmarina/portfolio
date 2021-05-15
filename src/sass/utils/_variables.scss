@@ -1,0 +1,16 @@
+// // цвет
+$active-color: #99ccff;
+$background: rgba(33, 33, 33, 0.9);
+$shadow-color: rgba(33, 33, 33, 1);
+$main-text-color: rgba(255, 255, 255, 0.8);
+$links-color: rgba(255, 255, 255, 0.4);
+
+// время анимации
+$timing-cubic: cubic-bezier(0.4, 0, 0.2, 1);
+
+// переменные для брейкпоинтов
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1200px;
+$before-tablet: 767px;
+$before-desktop: 1199px;

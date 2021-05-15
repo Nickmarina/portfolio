@@ -2,6 +2,7 @@ import refs from './js/refs';
 import downloadAboutMePage from './js/aboutMePage';
 import downloadProjectsPage from './js/projectsPage';
 import downloadContactsPage from './js/contactsPage';
+import './sass/main.scss';
 
 downloadAboutMePage();
 refs.homeBtn.addEventListener('click', downloadAboutMePage);
