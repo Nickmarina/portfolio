@@ -1,0 +1,35 @@
+[
+  {
+    "name": "HTML",
+    "sites": [
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" }
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "sites": [
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" }
+    ]
+  },
+  {
+    "name": "React",
+    "sites": [
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" },
+      { "id": "", "description": "", "link": "", "gitHub": "" }
+    ]
+  }
+]

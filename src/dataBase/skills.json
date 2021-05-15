@@ -1,0 +1,14 @@
+[
+  { "id": "001", "name": "HTML" },
+  { "id": "002", "name": "CSS" },
+  { "id": "003", "name": "JavaScript" },
+  { "id": "004", "name": "Basic Usage of Git" },
+  { "id": "005", "name": "GitHub" },
+  { "id": "006", "name": "Sass" },
+  { "id": "007", "name": "BEM" },
+  { "id": "008", "name": "CSS modules" },
+  { "id": "009", "name": "JSS" },
+  { "id": "010", "name": "React.js" },
+  { "id": "011", "name": "Redux" },
+  { "id": "012", "name": "Material ua" }
+]

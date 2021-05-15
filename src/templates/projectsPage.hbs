@@ -1,0 +1,13 @@
+<h2>My projects</h2>
+{{#each this}}
+<h3>Using {{name}}</h3>
+<ul>
+    {{#each sites}}
+    <li id={{id}}>
+        <h4>{{link}}</h4>
+        <p>{{description}}</p>
+        <span>GitHub:</span> <a href={{gitHub}}> </a>
+    </li>
+    {{/each}}
+</ul>
+{{/each}}
