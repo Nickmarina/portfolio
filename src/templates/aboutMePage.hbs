@@ -1,20 +1,20 @@
-<div class="homePage">
-    <img class="homePage_img"
-        src="https://images-na.ssl-images-amazon.com/images/I/31TMz12glsL._SX331_BO1,204,203,200_.jpg" alt="Marina"
-        width="300">
+<div class="mainInformation">
+    <img class="mainInformation_img" src="https://cdn.pixabay.com/photo/2021/05/16/17/48/17-48-22-502_960_720.jpg"
+        alt="my photo" width="250">
     <div>
-        <h1 class="homePage_title"> Hello, I am Marina Permiakova </h1>
-        <h2 class="homePage_position"> Front-end developer</h2>
-        <p class="homePage_description"> This site is my portfolio. I am junior developer who looking for interesting
+        <h1 class="mainInformation_title"> Hello, I am Marina Permiakova </h1>
+        <h2 class="mainInformation_position"> Front-end developer</h2>
+        <p class="mainInformation_description"> This site is my portfolio. I am junior developer who looking for
+            interesting
             job and a lot of new practice
         </p>
-        <div class="skills">
-            <h3 class="skills_title">My Skills</h3>
-            <ul class="skills_list">
-                {{#each this}}
-                <li class="skills_item" id={{id}}>{{name}}</li>
-                {{/each}}
-            </ul>
-        </div>
     </div>
+</div>
+<div class="skills">
+    <h3 class="skills_title">I have experience in:</h3>
+    <ul class="skills_list">
+        {{#each this}}
+        <li class="skills_item" id={{id}}><img src={{url}} alt={{name}} width="130"></li>
+        {{/each}}
+    </ul>
 </div>

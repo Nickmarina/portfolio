@@ -1,15 +1,72 @@
 [
-  { "id": "001", "name": "HTML" },
-  { "id": "002", "name": "CSS" },
-  { "id": "003", "name": "JavaScript" },
-  { "id": "004", "name": "Basic Usage of Git" },
-  { "id": "005", "name": "GitHub" },
-  { "id": "006", "name": "Sass" },
-  { "id": "007", "name": "BEM" },
-  { "id": "008", "name": "CSS modules" },
-  { "id": "009", "name": "JSS" },
-  { "id": "010", "name": "React.js" },
-  { "id": "011", "name": "Redux" },
-  { "id": "012", "name": "Material ua" },
-  { "id": "013", "name": "WebPack" }
+  {
+    "id": "001",
+    "name": "HTML",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+  },
+  {
+    "id": "002",
+    "name": "CSS",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+  },
+  {
+    "id": "003",
+    "name": "JavaScript",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+  },
+  {
+    "id": "010",
+    "name": "React.js",
+    "url": "https://repository-images.githubusercontent.com/37153337/9d0a6780-394a-11eb-9fd1-6296a684b124"
+  },
+  {
+    "id": "011",
+    "name": "Redux",
+    "url": "https://redux.js.org/img/redux-logo-landscape.png"
+  },
+  {
+    "id": "013",
+    "name": "WebPack",
+    "url": "https://guides.hexlet.io/images/webpack/webpack.png"
+  },
+  {
+    "id": "006",
+    "name": "Sass",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png"
+  },
+  {
+    "id": "007",
+    "name": "BEM",
+    "url": "https://miro.medium.com/max/638/1*xHJeNZlLtdFkjMMIL1z4Ag.jpeg"
+  },
+  {
+    "id": "008",
+    "name": "CSS modules",
+    "url": "https://raw.githubusercontent.com/css-modules/logos/master/css-modules-logo.png"
+  },
+  {
+    "id": "009",
+    "name": "JSS",
+    "url": "https://cssinjs.org/images/logo-og.png"
+  },
+  {
+    "id": "014",
+    "name": "Babel",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/1200px-Babel_Logo.svg.png"
+  },
+  {
+    "id": "004",
+    "name": "Basic Usage of Git",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/800px-Git-logo.svg.png"
+  },
+  {
+    "id": "005",
+    "name": "GitHub",
+    "url": "https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png"
+  },
+  {
+    "id": "012",
+    "name": "Material ua",
+    "url": "https://cdn-media-1.freecodecamp.org/images/1*FDNeKIUeUnf0XdqHmi7nsw.png"
+  }
 ]
