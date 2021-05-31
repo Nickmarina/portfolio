@@ -47,7 +47,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 
-  // outline: 1px solid tomato;
+  outline: 1px solid tomato;
 
   @media screen and (min-width: $mobile) {
     width: $mobile;
@@ -62,16 +62,16 @@ img {
   }
 }
 
-// .visually-hidden {
-//   position: absolute;
-//   width: 1px;
-//   height: 1px;
-//   margin: -1px;
-//   padding: 0;
-//   border: 0;
-//   clip: rect(0, 0, 0, 0);
-//   overflow: hidden;
-// }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
 
 body {
   color: $main-text-color;
@@ -80,17 +80,3 @@ body {
   font-weight: 400;
 }
 
-// /*   заголовки страницы */
-// .content-title {
-//   margin-bottom: 30px;
-//   font-weight: 700;
-//   font-size: 28px;
-//   line-height: 1.15;
-//   text-align: center;
-//   letter-spacing: 0.03em;
-
-//   @media screen and (min-width: $desktop) {
-//     margin-bottom: 50px;
-//     font-size: 36px;
-//   }
-// }

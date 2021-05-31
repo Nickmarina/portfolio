@@ -10,27 +10,23 @@
 
 .projects-list{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 
     &_item{
-        margin-right: 20px;
-        margin-bottom: 20px;
-        padding: 15px;
-    }
+        position: relative;
+        width: 100%/2;
+        margin-right: 30px; 
+        margin-bottom: 30px;
 
-    &_img{
+        &:nth-child(2n){
+            margin-right: 0;
+        }
 
+        &:last-child{
+            margin-bottom: 0;
+            margin-right: 0;
+        }
     }
     
-    &_description{
-
-    }
-
-    &_livepage{
-
-    }
-
-    &_github{
-
-    }
 }
