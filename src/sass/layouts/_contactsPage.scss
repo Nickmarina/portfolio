@@ -1,0 +1,31 @@
+.contacts-description{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;  
+    font-size: 25px;  
+}
+.contacts-list{
+    text-align: center;
+    // max-width: 400px;
+    margin-bottom: 50px;
+
+    &_item{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    &_title{
+        margin-right: 15px;
+        font-weight: 600;
+    }
+
+    &_link{
+        font-size: 20px;
+        font-weight: 400;
+
+        &:hover{
+            color: $active-color;
+        }
+    }
+}

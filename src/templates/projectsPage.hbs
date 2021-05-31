@@ -1,13 +1,11 @@
-<h2>My projects</h2>
-{{#each this}}
-<h3>Using {{name}}</h3>
-<ul>
-    {{#each sites}}
-    <li id={{id}}>
-        <h4>{{link}}</h4>
-        <p>{{description}}</p>
-        <span>GitHub:</span> <a href={{gitHub}}> </a>
+<p class="projects-text">You can see some my works here. Jush hover at picture and you can watch description of this site and links</p>
+<ul class="projects-list">
+    {{#each this}}
+    <li id={{id}} class="projects-list_item">
+        <img src={{image}} alt="project" class="projects-list_img">
+        <p class="projects-list_description">{{description}}</p>
+        <a href={{link}} class="projects-list_livepage">Go on site</a>
+        <a href={{gitHub}} class="projects-list_github">GitHub</a>
     </li>
     {{/each}}
 </ul>
-{{/each}}

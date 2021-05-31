@@ -1,35 +1,13 @@
 [
-  {
-    "name": "HTML",
-    "sites": [
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" }
-    ]
-  },
-  {
-    "name": "JavaScript",
-    "sites": [
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" }
-    ]
-  },
-  {
-    "name": "React",
-    "sites": [
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" },
-      { "id": "", "description": "", "link": "", "gitHub": "" }
-    ]
-  }
+      { "id": "001","image":"", "description": "This project was writting using clear HTML and Sass by myself", "link": "https://nickmarina.github.io/goit-markup-hw-08/", "gitHub": "https://github.com/Nickmarina/goit-markup-hw-08" },
+      { "id": "002","image":"",  "description": "This was command project. Clear HTML", "link": "https://kilinich-v.github.io/goit-IceCream-cp/", "gitHub": "https://github.com/Nickmarina/goit-IceCream-cp" },
+      { "id": "003","image":"",  "description": "JS.Switch theme and work with localStorage", "link": "https://nickmarina.github.io/goit-js-hw-10-food-service/", "gitHub": "https://github.com/Nickmarina/goit-js-hw-10-food-service" },
+      { "id": "004","image":"",  "description": "JS.Just a timer", "link": "https://nickmarina.github.io/goit-js-hw-11-timer/", "gitHub": "https://github.com/Nickmarina/goit-js-hw-11-timer" },
+      { "id": "005","image":"",  "description": "JS.Find a country", "link": "https://nickmarina.github.io/goit-js-hw-12-countries/", "gitHub": "https://github.com/Nickmarina/goit-js-hw-12-countries" },
+      { "id": "006","image":"",  "description": "JS. Image finder", "link": "https://nickmarina.github.io/goit-js-hw-13-image-finder/", "gitHub": "https://github.com/Nickmarina/goit-js-hw-13-image-finder" },
+      { "id": "007","image":"",  "description": "JS. Command project", "link": "https://kilinich-v.github.io/goit-Filmoteka-cp/", "gitHub": "https://github.com/Nickmarina/goit-Filmoteka-cp" },
+      { "id": "008","image":"",  "description": "React.Image finder", "link": "https://nickmarina.github.io/goit-react-hw-03-image-finder/", "gitHub": "https://github.com/Nickmarina/goit-react-hw-03-image-finder" },
+      { "id": "009","image":"",  "description": "React. Movie Search", "link": "https://goit-react-hw-04-movies-nickmarina.netlify.app/", "gitHub": "https://github.com/Nickmarina/goit-react-hw-04-movies" },
+      { "id": "010","image":"",  "description": "React project with registration. Phonebook", "link": "https://my-little-phonebook.netlify.app/", "gitHub": "https://github.com/Nickmarina/goit-react-hw-08-phonebook" }
+ 
 ]

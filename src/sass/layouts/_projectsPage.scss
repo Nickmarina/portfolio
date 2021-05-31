@@ -1,0 +1,36 @@
+.projects-text{
+    text-align: center;
+    max-width: 700px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+
+    &_item{
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    &_img{
+
+    }
+    
+    &_description{
+
+    }
+
+    &_livepage{
+
+    }
+
+    &_github{
+
+    }
+}
