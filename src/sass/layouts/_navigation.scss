@@ -14,5 +14,10 @@
     &:hover {
       color: $active-color;
     }
+    
+    &:focus {
+      color: $active-color;
+    }   
+        
   }
 }

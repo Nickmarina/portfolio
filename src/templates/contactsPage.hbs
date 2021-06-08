@@ -1,23 +1,13 @@
 <p class="contacts-description"> If you like my projects and want to work with me, you can write me:) </p> 
 <ul class="contacts-list">
-    <li class="contacts-list_item">
-        {{!-- svg --}}
-        <h2 class="contacts-list_title">GitHub:</h2>
-        <a href="https://github.com/Nickmarina" class="contacts-list_link">Nickmarina</a>
-    </li>
-    <li class="contacts-list_item">
-        {{!-- svg --}}
-        <h2 class="contacts-list_title">Linkedin:</h2>
-         <a href="" class="contacts-list_link">Marina Permiakova</a>
-    </li>
-       <li class="contacts-list_item">
-        {{!-- svg --}}
-        <h2 class="contacts-list_title">Facebook:</h2>
-         <a href="https://www.facebook.com/people/Marina-Permiakova/100006556545990/" class="contacts-list_link">Marina Permiakova</a>
-    </li>
-     <li class="contacts-list_item">
-        {{!-- svg --}}
-        <h2 class="contacts-list_title">Email:</h2>
-         <a href="mailto:marina.permiakova13@gmail.com" class="contacts-list_link">marina.permiakova13@gmail.com</a>
-    </li>
+    {{#each this}}
+        <li class="contacts-list_item">
+            {{!-- <h2 class="contacts-list_title">{{social}}:</h2> --}}
+            <a href={{link}} class="contacts-list_link">
+                <img src={{img}} alt={{social}} width="30" class="contacts-list_img"/>
+                <span class="contacts-list_title">{{social}}:</span> 
+                {{title}}
+            </a>
+        </li>
+    {{/each}}
 </ul>

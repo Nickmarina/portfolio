@@ -3,10 +3,12 @@
     {{#each this}}
     <li id={{id}} class="projects-list_item">
         <img src={{image}} alt="project" class="projects-list_img" width="450"> 
-        <div class="project">
+        <div class="project ">
             <p class="project_description">{{description}}</p>
-            <a href={{link}} class="project_livepage">Go on site</a>
-            <a href={{gitHub}} class="project_github">GitHub</a>
+            <ul class="project_nav">
+                <li> <a href={{link}} class="project_link">Go on site</a> </li>
+                <li> <a href={{gitHub}} class="project_link">GitHub</a></li>
+            </ul>           
         </div> 
     </li>
     {{/each}}

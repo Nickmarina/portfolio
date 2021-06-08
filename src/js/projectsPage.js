@@ -9,6 +9,8 @@ const downloadProjectsPage = () => {
   refs.projectsBtn.classList.add('activePage');
   refs.homeBtn.classList.remove('activePage');
   refs.contactsBtn.classList.remove('activePage');
-};
+
+}; 
+
 
 export default downloadProjectsPage;
