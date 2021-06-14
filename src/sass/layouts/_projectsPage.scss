@@ -1,18 +1,21 @@
 .projects-text{
-    text-align: center;
+    padding: 15px;
     max-width: 700px;
     margin-top: 30px;
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 25px;
+    text-align: center;
+    background-color: $block-color;
+    box-shadow: 0px 5px 10px 2px $shadow-color;
+    font-size: 20px;
 }
 
 .projects-list{
-    
+    text-align: center;
     margin-bottom: 15px;
 
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: $desktop){
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -22,13 +25,20 @@
         position: relative;
         margin-bottom: 30px;
 
-        @media screen and (min-width: $tablet){
-            width: 100%/2;
-            margin-right: 30px; 
+        @media screen and (max-width: $before-desktop) {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
         }
 
-        &:nth-child(2n){
-            margin-right: 0;
+        @media screen and (min-width: $desktop){
+            width: 100%/2;
+            margin-right: 30px; 
+
+            &:nth-child(2n){
+                margin-right: 0;
+            }
+    
         }
 
         &:last-child{

@@ -1,8 +1,11 @@
 .contacts-description{
     margin-top: 30px;
     margin-bottom: 100px;
+    padding: 10px;
     text-align: center;  
     font-size: 25px;  
+    background-color: $block-color;
+    box-shadow: 0px 5px 10px 2px $shadow-color;
 }
 .contacts-list{
     text-align: center;

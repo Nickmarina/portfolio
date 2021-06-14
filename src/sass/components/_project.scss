@@ -5,13 +5,16 @@
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: $shadow-color;
-    // color: $shadow-color;
     height: 60px;
-    width: 100%;
-
-    @media screen and (max-width: $before-tablet){
-        max-width: 350 px;
+    
+    @media screen and (min-width: $mobile) {
+        width: 450px;
     }
+
+    @media screen and (min-width: $desktop){
+        width: 100%;
+    }
+
     &_description{
         padding-left: 10px;
         margin-bottom: 15px;
@@ -25,6 +28,11 @@
     }
 
     &_link:hover{
+        color: $active-color;
+        font-size: 20px;
+    }
+
+    &_link:focus{
         color: $active-color;
         font-size: 20px;
     }
